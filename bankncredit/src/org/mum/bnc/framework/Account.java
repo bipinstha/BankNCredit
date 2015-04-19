@@ -1,20 +1,16 @@
-package org.mum.bnc.framework.account;
+package org.mum.bnc.framework;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.mum.bnc.framework.IAccount;
-import org.mum.bnc.framework.ICustomer;
-import org.mum.bnc.framework.IEntry;
 
 public abstract class Account implements IAccount {
 
 	private String accountNumber;
 	private List<IEntry> entryList;
-	private ICustomer customer;
+//	private ICustomer customer;
 
 	public Account() {
-		super();
+		super();	
 		this.entryList = new ArrayList<>();
 	}
 

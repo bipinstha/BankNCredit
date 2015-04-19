@@ -1,6 +1,5 @@
-package org.mum.bnc.framework.entry;
+package org.mum.bnc.framework;
 
-import org.mum.bnc.framework.Transaction;
 
 public class Deposit extends Transaction{
 
